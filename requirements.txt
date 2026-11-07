@@ -1,0 +1,17 @@
+# Starter environment (pin versions after team smoke test)
+numpy
+pandas
+Pillow
+opencv-python
+torch
+transformers
+accelerate
+sentencepiece
+jiwer
+fastapi
+uvicorn
+python-multipart
+streamlit
+python-docx
+pymupdf
+pytest
