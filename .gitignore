@@ -27,3 +27,8 @@ __pycache__/
 .vscode/
 .idea/
 .DS_Store
+# T01 local data and checkpoints
+/data/t01_smoke/
+/data/line1.png
+/data/sample_line.png
+/checkpoints/

@@ -1,0 +1,21 @@
+﻿id,input_text,decoded_text,token_count,nfc_equal
+1,Tiếng Việt có dấu: ă â ê ô ơ ư đ.,Tiếng Việt có dấu: ă â ê ô ơ ư đ.,37,True
+2,Việt Nam / VIỆT NAM / việt nam.,Việt Nam / VIỆT NAM / việt nam.,25,True
+3,"Năm 2026, số 12,5 và ngày 04/11/2026.","Năm 2026, số 12,5 và ngày 04/11/2026.",28,True
+4,"TP.HCM, PGS.TS., UBND và HĐND.","TP.HCM, PGS.TS., UBND và HĐND.",22,True
+5,"Tiếng Việt dùng dấu tổ hợp: ấ, ề, ộ, ử, ỹ.","Tiếng Việt dùng dấu tổ hợp: ấ, ề, ộ, ử, ỹ.",51,True
+6,"Cà phê sữa đá, bánh mì, phở và cơm tấm.","Cà phê sữa đá, bánh mì, phở và cơm tấm.",38,True
+7,"ĐẶC BIỆT: Ắ, Ằ, Ấ, Ầ, Ắ, Ẽ, Ỉ, Ố, Ồ, Ỗ, Ờ, Ừ, Ỷ.","ĐẶC BIỆT: Ắ, Ằ, Ấ, Ầ, Ắ, Ẽ, Ỉ, Ố, Ồ, Ỗ, Ờ, Ừ, Ỷ.",65,True
+8,Mã đơn hàng VN-2026-001234; tổng tiền: 1.250.000₫.,Mã đơn hàng VN-2026-001234; tổng tiền: 1.250.000₫.,42,True
+9,Ngày sinh: 01-02-1990; hạn dùng: 31/12/2030.,Ngày sinh: 01-02-1990; hạn dùng: 31/12/2030.,32,True
+10,Email: support@example.vn — Hotline: (+84) 1900 1234.,Email: support@example.vn — Hotline: (+84) 1900 1234.,21,True
+11,TS. Nguyễn Văn A phát biểu: “Chất lượng là ưu tiên số một.”,TS. Nguyễn Văn A phát biểu: “Chất lượng là ưu tiên số một.”,59,True
+12,"Lưu ý: không tự động sửa tên riêng, chữ số hoặc viết tắt.","Lưu ý: không tự động sửa tên riêng, chữ số hoặc viết tắt.",59,True
+13,"A/B testing: accuracy 98,5%; loss = 0,042; batch_size=16.","A/B testing: accuracy 98,5%; loss = 0,042; batch_size=16.",25,True
+14,"Câu dài: Sáng thứ Hai, nhóm nghiên cứu kiểm tra dữ liệu, mô hình, kết quả và báo cáo cuối kỳ.","Câu dài: Sáng thứ Hai, nhóm nghiên cứu kiểm tra dữ liệu, mô hình, kết quả và báo cáo cuối kỳ.",83,True
+15,Hà Nội — Đà Nẵng — Thành phố Hồ Chí Minh — Cần Thơ.,Hà Nội — Đà Nẵng — Thành phố Hồ Chí Minh — Cần Thơ.,45,True
+16,"Viết tắt: CNTT, AI, OCR, PDF, CSV, API, GPU và CPU.","Viết tắt: CNTT, AI, OCR, PDF, CSV, API, GPU và CPU.",33,True
+17,"Ký tự đặc biệt: (a), [b], {c}, #hashtag, @user, +84, 50%.","Ký tự đặc biệt: (a), [b], {c}, #hashtag, @user, +84, 50%.",42,True
+18,"Trời hôm nay đẹp quá! Bạn có khỏe không? Mình ổn, cảm ơn nhé.","Trời hôm nay đẹp quá! Bạn có khỏe không? Mình ổn, cảm ơn nhé.",60,True
+19,"Số thực: -3,14; phân số 1/2; khoảng 10–20; nhiệt độ 36°C.","Số thực: -3,14; phân số 1/2; khoảng 10–20; nhiệt độ 36°C.",53,True
+20,"Kết thúc thử nghiệm — tiếng Việt chuẩn NFC: Ảnh, nhận dạng, huấn luyện.","Kết thúc thử nghiệm — tiếng Việt chuẩn NFC: Ảnh, nhận dạng, huấn luyện.",71,True
