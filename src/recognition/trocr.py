@@ -66,3 +66,29 @@ class TrOCRRecognizer:
             generated_ids = self.model.generate(pixel_values)
         text = self.processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
         return unicodedata.normalize("NFC", text).strip()
+    
+    def recognize_line(
+        self,
+        image: Image.Image | str | Path) -> dict:
+        """
+        Recognize a single handwritten text line.
+
+        Returns:
+            dict: OCR result for API integration.
+        """
+        text = self.recognize(image)
+
+        return {
+            "text": text,
+            "confidence": None,
+            "model": self.model_name,
+            "status": "success"
+        }
+
+    def recognize_line_from_path(
+        self,
+        image_path: str | Path) -> dict:
+        """
+        Recognize a handwritten line from an image path.
+        """
+        return self.recognize_line(image_path)

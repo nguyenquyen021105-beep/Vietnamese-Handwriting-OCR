@@ -59,3 +59,28 @@ def test_recognize_raises_for_missing_image(tmp_path: Path):
 def test_recognize_rejects_invalid_image_input():
     with pytest.raises(TypeError):
         make_recognizer().recognize(object())
+
+from PIL import Image
+from src.recognition.trocr import TrOCRRecognizer
+
+
+def test_recognize_line_returns_dictionary(monkeypatch):
+    recognizer = TrOCRRecognizer.__new__(TrOCRRecognizer)
+    recognizer.model_name = "test-model"
+
+    monkeypatch.setattr(
+        recognizer,
+        "recognize",
+        lambda image: "Xin chào"
+    )
+
+    image = Image.new("RGB", (200, 50), "white")
+
+    result = recognizer.recognize_line(image)
+
+    assert result == {
+        "text": "Xin chào",
+        "confidence": None,
+        "model": "test-model",
+        "status": "success"
+    }
