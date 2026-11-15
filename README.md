@@ -23,16 +23,8 @@ streamlit run app/streamlit_app.py
 Chạy API (terminal khác): `uvicorn api.main:app --reload`.
 
 ## Dữ liệu
-- `data/raw/`: ảnh/PDF gốc (không commit dữ liệu cá nhân)
+- `data/raw/`: ảnh/PDF gốc 
 - `data/processed/`: ảnh đã xử lý và crop dòng
-- `data/annotations/`: nhãn ảnh-dòng (xem ví dụ CSV)
-- `models/`: checkpoint lớn (không commit)
-- `outputs/`: file xuất (không commit)
-
-## Mốc bàn giao
-- 16/11/2026: Báo cáo ban đầu, dữ liệu, kiến trúc, smoke test TrOCR.
-- 27/11/2026: Demo nhận dạng trang → Faithful OCR.
-- 15/12/2026: Hoàn thiện AI Corrected, đánh giá, báo cáo cuối.
-
-## Lưu ý
-Chia train/validation/test theo **người viết** để tránh rò rỉ. Chuẩn hóa nhãn bằng Unicode NFC. Không tự động sửa chữ số, tên riêng hoặc viết tắt mơ hồ. Lưu lịch sử chỉnh sửa.
+- `data/annotations/`: nhãn ảnh-dòng 
+- `models/`: checkpoint lớn 
+- `outputs/`: file xuất 
